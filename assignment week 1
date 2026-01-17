@@ -1,0 +1,260 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNs248m2CCksEZyUquSWjb6",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/iate8/Skyler/blob/main/assignment%20week%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!python assignment1/math_prints.py"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7VVMlzyy7tDo",
+        "outputId": "0d501670-4e95-4016-f570-a0c0afea6ebc"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "165\n",
+            "79\n",
+            "245\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "%%writefile assignment1/math_prints.py\n",
+        "print(2 * 60 + 45)\n",
+        "print(2026 - 1947)\n",
+        "print(7 * 35)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sXmXU3LR7qpK",
+        "outputId": "af63d951-2c39-4d74-b63f-4124393d10aa"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Overwriting assignment1/math_prints.py\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!mkdir -p assignment1\n",
+        "!ls"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SacB9O4x7mSY",
+        "outputId": "6fdf7d9c-9b17-4b2c-f079-987229907fc5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "assignment1  sample_data\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!git add assignment1/math_prints.py\n",
+        "!git commit -m \"STRUCTURE & PSEUDOCODE\"\n",
+        "!git push"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8GHKK9RL69kC",
+        "outputId": "cc5435c7-8baf-44bb-8ade-aeb5591a9689"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "fatal: not a git repository (or any of the parent directories): .git\n",
+            "fatal: not a git repository (or any of the parent directories): .git\n",
+            "fatal: not a git repository (or any of the parent directories): .git\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "%%writefile assignment1/math_prints.py\n",
+        "# IMPORT STATEMENTS\n",
+        "# (None)\n",
+        "\n",
+        "# FUNCTION DEFINITIONS\n",
+        "# (None)\n",
+        "\n",
+        "# PROGRAM LOGIC\n",
+        "# 1. Print the total minutes in a movie (2 * 60 + 45).\n",
+        "# 2. Print the years since 1947 (2026 - 1947).\n",
+        "# 3. Print the total cost of 7 books (7 * 35)."
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "o_4O04A762qg",
+        "outputId": "1d733b0c-5eea-437e-dfff-227e0237bd01"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Overwriting assignment1/math_prints.py\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!mkdir assignment1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1VYSjtwK6oM0",
+        "outputId": "1ca06b62-0770-4aaf-b08e-ba325510b8a9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "mkdir: cannot create directory ‘assignment1’: File exists\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "collapsed": true,
+        "id": "CALq5UO05UuV",
+        "outputId": "7a1174b4-1e99-407b-d588-0b5c938ee74c"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "fatal: Too many arguments.\n",
+            "\n",
+            "usage: git clone [<options>] [--] <repo> [<dir>]\n",
+            "\n",
+            "    -v, --verbose         be more verbose\n",
+            "    -q, --quiet           be more quiet\n",
+            "    --progress            force progress reporting\n",
+            "    --reject-shallow      don't clone shallow repository\n",
+            "    -n, --no-checkout     don't create a checkout\n",
+            "    --bare                create a bare repository\n",
+            "    --mirror              create a mirror repository (implies bare)\n",
+            "    -l, --local           to clone from a local repository\n",
+            "    --no-hardlinks        don't use local hardlinks, always copy\n",
+            "    -s, --shared          setup as shared repository\n",
+            "    --recurse-submodules[=<pathspec>]\n",
+            "                          initialize submodules in the clone\n",
+            "    --recursive ...       alias of --recurse-submodules\n",
+            "    -j, --jobs <n>        number of submodules cloned in parallel\n",
+            "    --template <template-directory>\n",
+            "                          directory from which templates will be used\n",
+            "    --reference <repo>    reference repository\n",
+            "    --reference-if-able <repo>\n",
+            "                          reference repository\n",
+            "    --dissociate          use --reference only while cloning\n",
+            "    -o, --origin <name>   use <name> instead of 'origin' to track upstream\n",
+            "    -b, --branch <branch>\n",
+            "                          checkout <branch> instead of the remote's HEAD\n",
+            "    -u, --upload-pack <path>\n",
+            "                          path to git-upload-pack on the remote\n",
+            "    --depth <depth>       create a shallow clone of that depth\n",
+            "    --shallow-since <time>\n",
+            "                          create a shallow clone since a specific time\n",
+            "    --shallow-exclude <revision>\n",
+            "                          deepen history of shallow clone, excluding rev\n",
+            "    --single-branch       clone only one branch, HEAD or --branch\n",
+            "    --no-tags             don't clone any tags, and make later fetches not to follow them\n",
+            "    --shallow-submodules  any cloned submodules will be shallow\n",
+            "    --separate-git-dir <gitdir>\n",
+            "                          separate git dir from working tree\n",
+            "    -c, --config <key=value>\n",
+            "                          set config inside the new repository\n",
+            "    --server-option <server-specific>\n",
+            "                          option to transmit\n",
+            "    -4, --ipv4            use IPv4 addresses only\n",
+            "    -6, --ipv6            use IPv6 addresses only\n",
+            "    --filter <args>       object filtering\n",
+            "    --remote-submodules   any cloned submodules will use their remote-tracking branch\n",
+            "    --sparse              initialize sparse-checkout file to include only files at root\n",
+            "\n"
+          ]
+        }
+      ],
+      "source": [
+        "!git clone https://github.com/iate8/Skyler %cd YOURREPO"
+      ]
+    }
+  ]
+}
